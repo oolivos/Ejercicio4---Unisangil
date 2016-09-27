@@ -30,7 +30,7 @@ $consulta = mysqli_query($conexion,"SELECT * FROM estudiantes");
  				<td><?php echo $resultado['apellido'] ?></td>
  				<td><?php echo $resultado['correo'] ?></td>
  				<td><?php echo $resultado['telefono'] ?></td>
- 				<td><a href="editar.php?id=<?php echo $resultado['id'] ?>">Editar</a> </td>
+ 				<td><a href="editar.php?id=<?php echo $resultado['id'] ?>"><img src="imagenes/edit.png" title="Editar este Estudiante"> </a> </td>
  			</tr>
 
  		<?php }?>

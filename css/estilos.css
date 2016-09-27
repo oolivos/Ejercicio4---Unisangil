@@ -36,6 +36,21 @@ a{
 	color: white;
 
 }
+table{
+	width: 100%;
+	border-spacing: 0;
+	text-align: left;
+}
+
+table tr th{
+	font-size: 20px;
+	background-color: #088A85;
+
+}
+table tr td{
+	height: 30px;
+
+}
 
 
 
