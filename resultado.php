@@ -12,6 +12,7 @@ $consulta = mysqli_query($conexion,"SELECT * FROM estudiantes");
  <body>
  <section>
  <h1>Estudiantes Registrados</h1>
+	 <a href="registro.html" title="Agregar Estudiante" id="img_agregar"><img src="imagenes/add.png"></a>
  	<table>
  		<tr>
  			<th>Id</th>

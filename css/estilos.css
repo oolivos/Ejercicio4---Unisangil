@@ -51,6 +51,11 @@ table tr td{
 	height: 30px;
 
 }
+#img_agregar{
+	float: left;
+	color: black;
+	padding: 5px;
+}
 
 
 
